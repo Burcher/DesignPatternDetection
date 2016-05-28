@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------------
+Test set: net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE! - in net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest
+testForStmtHasCorrectTypes(net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.reflect.UndeclaredThrowableException: null
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.childrenAccept(AbstractPLSQLNode.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst$Collector.invoke(AbstractPLSQLParserTst.java:55)
+	at com.sun.proxy.$Proxy15.visit(Unknown Source)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst.getOrderedNodes(AbstractPLSQLParserTst.java:78)
+	at net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest.testForStmtHasCorrectTypes(StatementAndBraceFinderTest.java:79)
+
+testIfStmtHasCorrectTypes(net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.reflect.UndeclaredThrowableException: null
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.childrenAccept(AbstractPLSQLNode.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst$Collector.invoke(AbstractPLSQLParserTst.java:55)
+	at com.sun.proxy.$Proxy15.visit(Unknown Source)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst.getOrderedNodes(AbstractPLSQLParserTst.java:78)
+	at net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest.testIfStmtHasCorrectTypes(StatementAndBraceFinderTest.java:58)
+
+testWhileStmtHasCorrectTypes(net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.reflect.UndeclaredThrowableException: null
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.childrenAccept(AbstractPLSQLNode.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst$Collector.invoke(AbstractPLSQLParserTst.java:55)
+	at com.sun.proxy.$Proxy15.visit(Unknown Source)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst.getOrderedNodes(AbstractPLSQLParserTst.java:78)
+	at net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest.testWhileStmtHasCorrectTypes(StatementAndBraceFinderTest.java:70)
+
+testExpressionParentChildLinks(net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.reflect.UndeclaredThrowableException: null
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.childrenAccept(AbstractPLSQLNode.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst$Collector.invoke(AbstractPLSQLParserTst.java:55)
+	at com.sun.proxy.$Proxy15.visit(Unknown Source)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst.getOrderedNodes(AbstractPLSQLParserTst.java:78)
+	at net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest.testExpressionParentChildLinks(StatementAndBraceFinderTest.java:31)
+
+testLabelledStmtHasCorrectTypes(net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.reflect.UndeclaredThrowableException: null
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.childrenAccept(AbstractPLSQLNode.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst$Collector.invoke(AbstractPLSQLParserTst.java:55)
+	at com.sun.proxy.$Proxy15.visit(Unknown Source)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst.getOrderedNodes(AbstractPLSQLParserTst.java:78)
+	at net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest.testLabelledStmtHasCorrectTypes(StatementAndBraceFinderTest.java:180)
+
+testSimpleCaseStmtHasCorrectTypes(net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.reflect.UndeclaredThrowableException: null
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.childrenAccept(AbstractPLSQLNode.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst$Collector.invoke(AbstractPLSQLParserTst.java:55)
+	at com.sun.proxy.$Proxy15.visit(Unknown Source)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst.getOrderedNodes(AbstractPLSQLParserTst.java:78)
+	at net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest.testSimpleCaseStmtHasCorrectTypes(StatementAndBraceFinderTest.java:97)
+
+testVariableOrConstantDeclaratorParentChildLinks(net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.reflect.UndeclaredThrowableException: null
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.childrenAccept(AbstractPLSQLNode.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst$Collector.invoke(AbstractPLSQLParserTst.java:55)
+	at com.sun.proxy.$Proxy15.visit(Unknown Source)
+	at net.sourceforge.pmd.lang.plsql.AbstractPLSQLParserTst.getOrderedNodes(AbstractPLSQLParserTst.java:78)
+	at net.sourceforge.pmd.lang.plsql.dfa.StatementAndBraceFinderTest.testVariableOrConstantDeclaratorParentChildLinks(StatementAndBraceFinderTest.java:48)
+

@@ -1,0 +1,181 @@
+
+D:\Development\workspace\de.uni-mannheim.phd.pmd.StandAlone\bin>pmd -d D:\Development\workspace\jedit -f xml -R rulesets/dpc/dpc.xml 
+ID: -2name: TEST
+ID: -1name: TEST
+Opened database successfully
+Start Data Collection
+Exception applying rule dpc, continuing with next rule
+java.lang.NullPointerException
+	at net.sourceforge.pmd.lang.dpc.DesignPatternDetection.visit(DesignPatternDetection.java:590)
+	at net.sourceforge.pmd.lang.java.ast.ASTSwitchStatement.jjtAccept(ASTSwitchStatement.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:410)
+	at net.sourceforge.pmd.lang.java.ast.ASTStatement.jjtAccept(ASTStatement.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:422)
+	at net.sourceforge.pmd.lang.java.ast.ASTBlockStatement.jjtAccept(ASTBlockStatement.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.dpc.DesignPatternDetection.visit(DesignPatternDetection.java:124)
+	at net.sourceforge.pmd.lang.java.ast.ASTConstructorDeclaration.jjtAccept(ASTConstructorDeclaration.java:30)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:106)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceBodyDeclaration.jjtAccept(ASTClassOrInterfaceBodyDeclaration.java:41)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:102)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceBody.jjtAccept(ASTClassOrInterfaceBody.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.dpc.DesignPatternDetection.visit(DesignPatternDetection.java:99)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceDeclaration.jjtAccept(ASTClassOrInterfaceDeclaration.java:26)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:218)
+	at net.sourceforge.pmd.lang.java.ast.ASTTypeDeclaration.jjtAccept(ASTTypeDeclaration.java:36)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:198)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visitAll(AbstractJavaRule.java:30)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.apply(AbstractJavaRule.java:24)
+	at net.sourceforge.pmd.RuleSet.apply(RuleSet.java:280)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:125)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:47)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:78)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:25)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Exception applying rule dpc, continuing with next rule
+java.lang.NullPointerException
+	at net.sourceforge.pmd.lang.dpc.DesignPatternDetection.visit(DesignPatternDetection.java:590)
+	at net.sourceforge.pmd.lang.java.ast.ASTSwitchStatement.jjtAccept(ASTSwitchStatement.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:410)
+	at net.sourceforge.pmd.lang.java.ast.ASTStatement.jjtAccept(ASTStatement.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:422)
+	at net.sourceforge.pmd.lang.java.ast.ASTBlockStatement.jjtAccept(ASTBlockStatement.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:418)
+	at net.sourceforge.pmd.lang.java.ast.ASTBlock.jjtAccept(ASTBlock.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:410)
+	at net.sourceforge.pmd.lang.java.ast.ASTStatement.jjtAccept(ASTStatement.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:458)
+	at net.sourceforge.pmd.lang.java.ast.ASTForStatement.jjtAccept(ASTForStatement.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:410)
+	at net.sourceforge.pmd.lang.java.ast.ASTStatement.jjtAccept(ASTStatement.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:422)
+	at net.sourceforge.pmd.lang.java.ast.ASTBlockStatement.jjtAccept(ASTBlockStatement.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.dpc.DesignPatternDetection.visit(DesignPatternDetection.java:124)
+	at net.sourceforge.pmd.lang.java.ast.ASTConstructorDeclaration.jjtAccept(ASTConstructorDeclaration.java:30)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:106)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceBodyDeclaration.jjtAccept(ASTClassOrInterfaceBodyDeclaration.java:41)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:102)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceBody.jjtAccept(ASTClassOrInterfaceBody.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.dpc.DesignPatternDetection.visit(DesignPatternDetection.java:99)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceDeclaration.jjtAccept(ASTClassOrInterfaceDeclaration.java:26)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:218)
+	at net.sourceforge.pmd.lang.java.ast.ASTTypeDeclaration.jjtAccept(ASTTypeDeclaration.java:36)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:198)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visitAll(AbstractJavaRule.java:30)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.apply(AbstractJavaRule.java:24)
+	at net.sourceforge.pmd.RuleSet.apply(RuleSet.java:280)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:125)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:47)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:78)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:25)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Exception applying rule dpc, continuing with next rule
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at net.sourceforge.pmd.lang.dpc.DesignPatternDetection.visit(DesignPatternDetection.java:217)
+	at net.sourceforge.pmd.lang.java.ast.ASTFieldDeclaration.jjtAccept(ASTFieldDeclaration.java:23)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:106)
+	at net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceBodyDeclaration.jjtAccept(ASTClassOrInterfaceBodyDeclaration.java:41)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:110)
+	at net.sourceforge.pmd.lang.java.ast.ASTEnumBody.jjtAccept(ASTEnumBody.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:202)
+	at net.sourceforge.pmd.lang.java.ast.ASTEnumDeclaration.jjtAccept(ASTEnumDeclaration.java:18)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:218)
+	at net.sourceforge.pmd.lang.java.ast.ASTTypeDeclaration.jjtAccept(ASTTypeDeclaration.java:36)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaNode.childrenAccept(AbstractJavaNode.java:55)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:69)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visit(AbstractJavaRule.java:198)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.visitAll(AbstractJavaRule.java:30)
+	at net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.apply(AbstractJavaRule.java:24)
+	at net.sourceforge.pmd.RuleSet.apply(RuleSet.java:280)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:125)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:47)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:78)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:25)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Start Data Analysis
+Start State Detection
+Strategy found by class id 18798 in Methodes M1.1: 2, 20433, 20433, M1.3: 5 {TAB_OUT_FORWARD=2, CLOSE_PLUGIN_MANAGER=2, TAB_OUT_BACK=2, EDIT_PLUGIN=2, DEFAULT=2}
+Possible
+===================================================
+Strategy found by class id 8217 in Methodes M1.1: 3, 9336, 9350, 9350, M1.3: 10 {FLOAT=3, BYTE=3, CHAR=3, DOUBLE=3, VOID=3, BOOLEAN=3, INT=3, DEFAULT=3, SHORT=3, LONG=3}
+Useful
+===================================================
+Strategy found by class id 13222 in Methodes M1.1: 2, 14876, 14876, M1.3: 4 {MINIMUM=2, MAXIMUM=2, PREFERRED=2, DEFAULT=2}
+Possible
+===================================================
+Strategy found by class id 9136 in Methodes M1.1: 2, 10366, 10374, M1.3: 3 {view=2, global=2, editpane=2}
+Possible
+===================================================
+Strategy found by class id 3669 in Methodes M1.1: 2, 3998, 4020, M1.3: 3 {SYMBOL=2, WHITESPACE=2, WORD_CHAR=2}
+Possible
+===================================================
+[[-1]]
+Done
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.1.1" timestamp="2014-07-20T21:04:03.799">
+</pmd>

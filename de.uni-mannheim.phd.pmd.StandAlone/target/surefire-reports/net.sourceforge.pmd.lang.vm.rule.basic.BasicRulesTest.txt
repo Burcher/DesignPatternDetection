@@ -1,0 +1,606 @@
+-------------------------------------------------------------------------------
+Test set: net.sourceforge.pmd.lang.vm.rule.basic.BasicRulesTest
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 0, Errors: 43, Skipped: 0, Time elapsed: 0.109 sec <<< FAILURE! - in net.sourceforge.pmd.lang.vm.rule.basic.BasicRulesTest
+xml.vm-basic.AvoidDeeplyNestedIfStmts(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.AvoidDeeplyNestedIfStmts(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #2" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.AvoidDeeplyNestedIfStmts(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.AvoidDeeplyNestedIfStmts(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #2" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.CollapsibleIfStatements(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.CollapsibleIfStatements(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #2" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.CollapsibleIfStatements(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.CollapsibleIfStatements(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #2" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.CollapsibleIfStatements(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #3" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.CollapsibleIfStatements(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #4" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.CollapsibleIfStatements(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #5" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.CollapsibleIfStatements(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #6" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.CollapsibleIfStatements(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #7" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.CollapsibleIfStatements(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #8" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.ExcessiveTemplateLength(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.ExcessiveTemplateLength(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.AvoidReassigningParameters(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.AvoidReassigningParameters(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyIfStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyIfStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #2" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyIfStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #3" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyIfStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #4" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyIfStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #5" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyIfStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #6" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyIfStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyIfStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #2" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyIfStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #2" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyForeachStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyForeachStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #2" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.EmptyForeachStmt(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.UnusedMacroParameter(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.UnusedMacroParameter(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.UnusedMacroParameter(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #2" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.UnusedMacroParameter(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #3" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.UnusedMacroParameter(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #4" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.UnusedMacroParameter(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #5" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.UnusedMacroParameter(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #6" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.UnusedMacroParameter(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #7" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.NoInlineJavaScript(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.NoInlineJavaScript(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.NoInlineJavaScript(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #2" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.NoInlineStyles(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Bad example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.vm-basic.NoInlineStyles(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.RuntimeException: "Good example #1" failed
+	at net.sourceforge.pmd.lang.vm.ast.VmParserVisitorAdapter.visit(VmParserVisitorAdapter.java:12)
+	at net.sourceforge.pmd.lang.vm.rule.VmRuleChainVisitor.indexNodes(VmRuleChainVisitor.java:34)
+	at net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor.visitAll(AbstractRuleChainVisitor.java:59)
+	at net.sourceforge.pmd.RuleChain.apply(RuleChain.java:66)
+	at net.sourceforge.pmd.RuleSets.apply(RuleSets.java:122)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:150)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+

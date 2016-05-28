@@ -1,0 +1,180 @@
+-------------------------------------------------------------------------------
+Test set: net.sourceforge.pmd.lang.plsql.rule.codesize.CodesizeRulesTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0.203 sec <<< FAILURE! - in net.sourceforge.pmd.lang.plsql.rule.codesize.CodesizeRulesTest
+xml.plsql-codesize.NPathComplexity(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.203 sec  <<< ERROR!
+java.lang.RuntimeException: "A too complex procedure which triggers NPathComplexityRule" failed
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.setScope(AbstractPLSQLNode.java:113)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.createSourceFileScope(ScopeAndDeclarationFinder.java:123)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.visit(ScopeAndDeclarationFinder.java:128)
+	at net.sourceforge.pmd.lang.plsql.ast.ASTInput.jjtAccept(ASTInput.java:23)
+	at net.sourceforge.pmd.lang.plsql.symboltable.SymbolFacade.initializeWith(SymbolFacade.java:11)
+	at net.sourceforge.pmd.lang.plsql.PLSQLHandler$2.start(PLSQLHandler.java:68)
+	at net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(SourceCodeProcessor.java:104)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:143)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.plsql-codesize.ExcessiveTypeLength(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.203 sec  <<< ERROR!
+java.lang.RuntimeException: "A too complex procedure which triggers ExcessiveTypeLengthRule" failed
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.setScope(AbstractPLSQLNode.java:113)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.createSourceFileScope(ScopeAndDeclarationFinder.java:123)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.visit(ScopeAndDeclarationFinder.java:128)
+	at net.sourceforge.pmd.lang.plsql.ast.ASTInput.jjtAccept(ASTInput.java:23)
+	at net.sourceforge.pmd.lang.plsql.symboltable.SymbolFacade.initializeWith(SymbolFacade.java:11)
+	at net.sourceforge.pmd.lang.plsql.PLSQLHandler$2.start(PLSQLHandler.java:68)
+	at net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(SourceCodeProcessor.java:104)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:143)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.plsql-codesize.CyclomaticComplexity(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.203 sec  <<< ERROR!
+java.lang.RuntimeException: "Simple method" failed
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.setScope(AbstractPLSQLNode.java:113)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.createSourceFileScope(ScopeAndDeclarationFinder.java:123)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.visit(ScopeAndDeclarationFinder.java:128)
+	at net.sourceforge.pmd.lang.plsql.ast.ASTInput.jjtAccept(ASTInput.java:23)
+	at net.sourceforge.pmd.lang.plsql.symboltable.SymbolFacade.initializeWith(SymbolFacade.java:11)
+	at net.sourceforge.pmd.lang.plsql.PLSQLHandler$2.start(PLSQLHandler.java:68)
+	at net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(SourceCodeProcessor.java:104)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:143)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.plsql-codesize.ExcessiveObjectLength(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.203 sec  <<< ERROR!
+java.lang.RuntimeException: "short" failed
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.setScope(AbstractPLSQLNode.java:113)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.createSourceFileScope(ScopeAndDeclarationFinder.java:123)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.visit(ScopeAndDeclarationFinder.java:128)
+	at net.sourceforge.pmd.lang.plsql.ast.ASTInput.jjtAccept(ASTInput.java:23)
+	at net.sourceforge.pmd.lang.plsql.symboltable.SymbolFacade.initializeWith(SymbolFacade.java:11)
+	at net.sourceforge.pmd.lang.plsql.PLSQLHandler$2.start(PLSQLHandler.java:68)
+	at net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(SourceCodeProcessor.java:104)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:143)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.plsql-codesize.ExcessivePackageBodyLength(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.203 sec  <<< ERROR!
+java.lang.RuntimeException: "A too complex procedure which triggers ExcessivePackageBodyLengthRule" failed
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.setScope(AbstractPLSQLNode.java:113)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.createSourceFileScope(ScopeAndDeclarationFinder.java:123)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.visit(ScopeAndDeclarationFinder.java:128)
+	at net.sourceforge.pmd.lang.plsql.ast.ASTInput.jjtAccept(ASTInput.java:23)
+	at net.sourceforge.pmd.lang.plsql.symboltable.SymbolFacade.initializeWith(SymbolFacade.java:11)
+	at net.sourceforge.pmd.lang.plsql.PLSQLHandler$2.start(PLSQLHandler.java:68)
+	at net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(SourceCodeProcessor.java:104)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:143)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.plsql-codesize.ExcessivePackageSpecificationLength(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.203 sec  <<< ERROR!
+java.lang.RuntimeException: "A too complex procedure which triggers ExcessivePackageSpecificationLengthRule" failed
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.setScope(AbstractPLSQLNode.java:113)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.createSourceFileScope(ScopeAndDeclarationFinder.java:123)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.visit(ScopeAndDeclarationFinder.java:128)
+	at net.sourceforge.pmd.lang.plsql.ast.ASTInput.jjtAccept(ASTInput.java:23)
+	at net.sourceforge.pmd.lang.plsql.symboltable.SymbolFacade.initializeWith(SymbolFacade.java:11)
+	at net.sourceforge.pmd.lang.plsql.PLSQLHandler$2.start(PLSQLHandler.java:68)
+	at net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(SourceCodeProcessor.java:104)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:143)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.plsql-codesize.ExcessiveParameterList(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.203 sec  <<< ERROR!
+java.lang.RuntimeException: "A too complex procedure which triggers ExcessiveParameterListRule" failed
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.setScope(AbstractPLSQLNode.java:113)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.createSourceFileScope(ScopeAndDeclarationFinder.java:123)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.visit(ScopeAndDeclarationFinder.java:128)
+	at net.sourceforge.pmd.lang.plsql.ast.ASTInput.jjtAccept(ASTInput.java:23)
+	at net.sourceforge.pmd.lang.plsql.symboltable.SymbolFacade.initializeWith(SymbolFacade.java:11)
+	at net.sourceforge.pmd.lang.plsql.PLSQLHandler$2.start(PLSQLHandler.java:68)
+	at net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(SourceCodeProcessor.java:104)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:143)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.plsql-codesize.ExcessiveMethodLength(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.203 sec  <<< ERROR!
+java.lang.RuntimeException: "short" failed
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.setScope(AbstractPLSQLNode.java:113)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.createSourceFileScope(ScopeAndDeclarationFinder.java:123)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.visit(ScopeAndDeclarationFinder.java:128)
+	at net.sourceforge.pmd.lang.plsql.ast.ASTInput.jjtAccept(ASTInput.java:23)
+	at net.sourceforge.pmd.lang.plsql.symboltable.SymbolFacade.initializeWith(SymbolFacade.java:11)
+	at net.sourceforge.pmd.lang.plsql.PLSQLHandler$2.start(PLSQLHandler.java:68)
+	at net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(SourceCodeProcessor.java:104)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:143)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.plsql-codesize.NcssMethodCount(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.203 sec  <<< ERROR!
+java.lang.RuntimeException: "A too complex procedure which triggers ExcessiveNcssMethodCountRule" failed
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.setScope(AbstractPLSQLNode.java:113)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.createSourceFileScope(ScopeAndDeclarationFinder.java:123)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.visit(ScopeAndDeclarationFinder.java:128)
+	at net.sourceforge.pmd.lang.plsql.ast.ASTInput.jjtAccept(ASTInput.java:23)
+	at net.sourceforge.pmd.lang.plsql.symboltable.SymbolFacade.initializeWith(SymbolFacade.java:11)
+	at net.sourceforge.pmd.lang.plsql.PLSQLHandler$2.start(PLSQLHandler.java:68)
+	at net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(SourceCodeProcessor.java:104)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:143)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.plsql-codesize.NcssObjectCount(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.203 sec  <<< ERROR!
+java.lang.RuntimeException: "A too complex procedure which triggers NcssObjectCountRule" failed
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.setScope(AbstractPLSQLNode.java:113)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.createSourceFileScope(ScopeAndDeclarationFinder.java:123)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.visit(ScopeAndDeclarationFinder.java:128)
+	at net.sourceforge.pmd.lang.plsql.ast.ASTInput.jjtAccept(ASTInput.java:23)
+	at net.sourceforge.pmd.lang.plsql.symboltable.SymbolFacade.initializeWith(SymbolFacade.java:11)
+	at net.sourceforge.pmd.lang.plsql.PLSQLHandler$2.start(PLSQLHandler.java:68)
+	at net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(SourceCodeProcessor.java:104)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:143)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+
+xml.plsql-codesize.TooManyFields(net.sourceforge.pmd.testframework.SimpleAggregatorTst)  Time elapsed: 0.203 sec  <<< ERROR!
+java.lang.RuntimeException: "A too complex procedure which triggers TooManyFieldsRule" failed
+	at net.sourceforge.pmd.lang.plsql.ast.AbstractPLSQLNode.setScope(AbstractPLSQLNode.java:113)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.createSourceFileScope(ScopeAndDeclarationFinder.java:123)
+	at net.sourceforge.pmd.lang.plsql.symboltable.ScopeAndDeclarationFinder.visit(ScopeAndDeclarationFinder.java:128)
+	at net.sourceforge.pmd.lang.plsql.ast.ASTInput.jjtAccept(ASTInput.java:23)
+	at net.sourceforge.pmd.lang.plsql.symboltable.SymbolFacade.initializeWith(SymbolFacade.java:11)
+	at net.sourceforge.pmd.lang.plsql.PLSQLHandler$2.start(PLSQLHandler.java:68)
+	at net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(SourceCodeProcessor.java:104)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:143)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:80)
+	at net.sourceforge.pmd.testframework.RuleTst.runTestFromString(RuleTst.java:156)
+	at net.sourceforge.pmd.testframework.RuleTst.processUsingStringReader(RuleTst.java:139)
+	at net.sourceforge.pmd.testframework.RuleTst.runTest(RuleTst.java:96)
+	at net.sourceforge.pmd.testframework.SimpleAggregatorTst.testAll(SimpleAggregatorTst.java:75)
+

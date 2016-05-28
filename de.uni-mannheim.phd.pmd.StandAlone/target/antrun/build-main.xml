@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <ant antfile="src/main/ant/alljavacc.xml">
+    <property name="target" value="C:\Dissertation\workspace\de.uni-mannheim.phd.pmd.StandAlone\target/generated-sources/javacc"/>
+    <property name="javacc.jar" value="${settings.localRepository}/net/java/dev/javacc/javacc/5.0/javacc-5.0.jar"/>
+  </ant>
+</target>
+</project>

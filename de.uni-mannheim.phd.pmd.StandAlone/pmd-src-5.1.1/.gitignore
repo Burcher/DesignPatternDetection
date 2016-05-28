@@ -1,0 +1,9 @@
+target/
+bin/
+.project
+.classpath
+.checkstyle
+.pmd
+.ruleset
+.settings/
+*.patch

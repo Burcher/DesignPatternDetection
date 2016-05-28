@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: net.sourceforge.pmd.RuleSetFactoryTest
+-------------------------------------------------------------------------------
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.941 sec - in net.sourceforge.pmd.RuleSetFactoryTest

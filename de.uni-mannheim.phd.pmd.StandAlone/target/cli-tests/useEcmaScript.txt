@@ -1,0 +1,14 @@
+Start running test useEcmaScript
+Loaded rule EqualComparison
+Loaded rule GlobalVariable
+Loaded rule UnreachableCode
+Loaded rule AssignmentInOperand
+Loaded rule AvoidTrailingComma
+Loaded rule InnaccurateNumericLiteral
+Loaded rule ScopeForInVariable
+Loaded rule ConsistentReturn
+Loaded rule UseBaseWithParseInt
+Using Ecmascript version: Ecmascript 3
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="unknown" timestamp="2015-08-01T14:53:49.270">
+</pmd>

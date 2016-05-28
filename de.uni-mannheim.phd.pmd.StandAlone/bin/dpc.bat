@@ -1,0 +1,1 @@
+pmd -d C:\Dissertation\workspace\test.jedit-5-2\src -f xml -R rulesets/dpc/dpc.xml

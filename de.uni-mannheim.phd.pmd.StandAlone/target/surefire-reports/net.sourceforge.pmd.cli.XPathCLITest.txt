@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: net.sourceforge.pmd.cli.XPathCLITest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in net.sourceforge.pmd.cli.XPathCLITest
+runXPath(net.sourceforge.pmd.cli.XPathCLITest)  Time elapsed: 0 sec  <<< ERROR!
+java.io.FileNotFoundException: src\test\java\net\sourceforge\pmd\cli\XPathCLITest.java (Das System kann den angegebenen Pfad nicht finden)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at net.sourceforge.pmd.cli.XPathCLI.main(XPathCLI.java:59)
+	at net.sourceforge.pmd.cli.XPathCLITest.runXPath(XPathCLITest.java:22)
+
