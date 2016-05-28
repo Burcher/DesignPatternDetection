@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DPCPlugIn
+Bundle-SymbolicName: de.uni-mannheim.phd.pmd.DPCPlugIn
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: net.sourceforge.pmd.eclipse.plugin;bundle-version="4.0.1.v20130811-0001"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: sqlite-jdbc-3.7.15-M1.jar,
+ .
